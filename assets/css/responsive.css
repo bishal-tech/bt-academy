@@ -35,6 +35,12 @@
     .teacher-slide h3 {
         font-size: 18px;
     }
+    .reverse{
+        flex-direction: column-reverse;
+    }
+    .about-img-slider{
+        margin-top: 30px;
+    }
 }
 
 
