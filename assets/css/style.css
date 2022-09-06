@@ -254,10 +254,11 @@ textarea:focus {
 }
 
 .banner-course-slider {
-    display: flex;
+    /* display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 10px; */
+    /* padding: 20px; */
 }
 
 .banner-course-slide {
@@ -265,6 +266,7 @@ textarea:focus {
     padding: 20px;
     width: 175px;
     border-radius: 10px;
+    margin: 10px;
 }
 
 .banner-course-slide img {
@@ -354,6 +356,8 @@ textarea:focus {
 .teacher-slider {
     margin-top: -145px;
     margin-left: 25px;
+    max-width: 600px;
+    padding: 10px;
 }
 
 .teacher-slide {
@@ -361,6 +365,7 @@ textarea:focus {
     border-radius: 10px;
     padding: 20px;
     max-width: 600px;
+    margin: 10px;
 }
 
 .teacher-slide img {
@@ -441,6 +446,7 @@ textarea:focus {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px;
 }
 
 .company-slide {
@@ -452,7 +458,7 @@ textarea:focus {
 }
 
 .company-slide img {
-    width: 210px;
+    max-width: 210px;
     height: 100px;
 }
 
@@ -461,11 +467,12 @@ textarea:focus {
 .laptop-slide {
     box-shadow: var(--shadow);
     margin: 10px;
+    background-color: #FFC815;
 }
 
 .laptop-slide img {
-    width: 300px;
-    height: 210px;
+    width: 100%;
+    height: 180px;
 }
 
 /* -------------------------------- Contact section style start here  */
