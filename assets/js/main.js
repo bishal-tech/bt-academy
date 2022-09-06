@@ -58,6 +58,7 @@ $(document).ready(function () {
       },
     ],
   });
+
   $(".course-slider").slick({
     infinite: true,
     autoplay: true,
@@ -77,7 +78,7 @@ $(document).ready(function () {
           arrows: true,
           centerMode: false,
           centerPadding: "0px",
-          slidesToShow: 3,
+          slidesToShow: 2,
         },
       },
       {
@@ -161,7 +162,6 @@ $(document).ready(function () {
     ],
   });
 
-
   $(".review-slider").slick({
     infinite: true,
     autoplay: true,
@@ -176,7 +176,26 @@ $(document).ready(function () {
     slidesToShow: 2,
     prevArrow: $(".prev"),
     nextArrow: $(".next"),
-    responsive: [],
+    responsive: [
+      {
+        breakpoint: 908,
+        settings: {
+          arrows: true,
+          centerMode: false,
+          centerPadding: "0px",
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 650,
+        settings: {
+          arrows: true,
+          centerMode: false,
+          centerPadding: "0px",
+          slidesToShow: 1,
+        },
+      },
+    ],
   });
 
   $(".company-slider").slick({
@@ -222,7 +241,6 @@ $(document).ready(function () {
     ],
   });
 
-
   $(".laptop-slider").slick({
     infinite: true,
     autoplay: true,
@@ -265,6 +283,4 @@ $(document).ready(function () {
       },
     ],
   });
-
-
 });
