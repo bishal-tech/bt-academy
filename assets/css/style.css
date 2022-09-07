@@ -444,10 +444,10 @@ textarea:focus {
 }
 
 /* -------------------------------- Video section style start here  */
-.video-p{
+.video-p {
     max-width: 500px;
-margin: auto;
-margin-bottom: 15px;
+    margin: auto;
+    margin-bottom: 15px;
 }
 
 
@@ -497,12 +497,22 @@ margin-bottom: 15px;
 .review-text {
     padding: 20px;
     background-color: var(--white);
+    position: relative;
+}
 
+.caruv {
+    clip-path: polygon(100% 0, 74% 7%, 54% 14%, 37% 24%, 24% 36%, 15% 55%, 8% 75%, 0 100%, 0 72%, 0 0);
+    height: 30px;
+    width: 30px;
+    background-color: var(--white);
+    position: absolute;
+    bottom: -30px;
+    left: 0px;
 }
 
 .review-img {
     border-top-left-radius: 54px;
-    margin-top: 25px;
+    margin-top: 10px;
     /* background-color: var(--dark-grey); */
     display: flex;
     align-items: center;
@@ -554,11 +564,12 @@ margin-bottom: 15px;
 }
 
 .laptop-slide ul {
-    list-style:none;
-    
+    list-style: none;
+
 }
-.laptop-slide ul li{
-   margin-left: -25px;
+
+.laptop-slide ul li {
+    margin-left: -25px;
 
 }
 
