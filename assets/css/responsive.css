@@ -5,6 +5,7 @@
     .reverse {
         flex-direction: column-reverse;
     }
+
 }
 
 
@@ -34,6 +35,11 @@
     }
 
     .top-row-course {
+        display: none;
+    }
+
+    .graphic,
+    .teacher-pic {
         display: none;
     }
 
