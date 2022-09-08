@@ -578,12 +578,55 @@ textarea:focus {
 }
 
 /* -------------------------------- Contact section style start here  */
+.contact-cta-sec {
+    position: relative;
+    /* background-color: var(--dark-grey); */
+}
+
+.dark-bg {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    width: 50%;
+    height: 500px;
+    background-color: var(--dark-grey);
+    border-radius: 10px;
+    z-index: -1;
+}
+
 .contat-form {
-    background-color: var(--yellow);
+    /* background-color: var(--yellow); */
     padding: 20px;
     max-width: 400px;
     border-radius: 10px;
 }
+
+.form-control:focus {
+    border-color: var(--yellow);
+    box-shadow: 0 0 0 0.25rem var(--yellow);
+}
+
+.cta-box {
+    display: flex;
+    /* justify-content: end; */
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.cta-box ion-icon,
+.cta-box span {
+    color: var(--white);
+}
+
+.cta-box ion-icon {
+    font-size: 45px;
+    margin-right: 20px;
+}
+
+.cta-box span {
+    font-size: 20px;
+}
+
 
 /* -------------------------------- Footer section style start here  */
 .logo {
