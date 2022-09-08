@@ -125,7 +125,8 @@ textarea:focus {
     justify-content: center;
 }
 
-.cta-btn-1 {
+.cta-btn-1,
+.main-btn-1 {
     padding: 10px 30px;
     font-size: 18px;
     background-color: var(--yellow);
@@ -135,7 +136,7 @@ textarea:focus {
 
 }
 
-.cta-btn-1:hover {
+.main-btn-1:hover {
     font-size: 18px;
     background-color: var(--white);
     /* border: 2px solid var(--yellow); */
@@ -143,23 +144,17 @@ textarea:focus {
     transition: all 0.3s linear;
 }
 
-.cta-btn-2 {
-    /* padding: 10px 10px; */
-    padding: 10px 30px;
+.cta-btn-1:hover {
     font-size: 18px;
-    /* border: 2px solid var(--dark-grey); */
-    background-color: var(--dark-grey);
-    color: var(--white);
-    transition: all 0.4s linear;
-}
-
-.cta-btn-2:hover {
+    background-color: var(--light-grey);
     /* border: 2px solid var(--yellow); */
-    background-color: var(--white);
-    color: var(--yellow);
-    transition: all 0.4s linear;
+    color: var(--white);
+    transition: all 0.3s linear;
 }
 
+button {
+    border: none;
+}
 
 /* -------------------------------- Header style start here  */
 .hearder_wrapper {
@@ -555,7 +550,12 @@ textarea:focus {
 .laptop-slide {
     box-shadow: var(--shadow);
     margin: 10px;
-    background-color: #FFC815;
+    background-color: var(--light-grey);
+    color: var(--white);
+}
+
+.laptop-slide h3 {
+    color: var(--yellow);
 }
 
 .laptop-slide img {
@@ -629,8 +629,8 @@ textarea:focus {
 
 
 /* -------------------------------- Footer section style start here  */
-.logo {
-    width: 100px;
+.logo img{
+    width: 155px;
 }
 
 footer {
@@ -649,7 +649,7 @@ footer a {
 
 footer a:hover {
     color: var(--yellow);
-    margin-left: 10px;
+    /* margin-left: 10px; */
     transition: all 0.5s linear;
 
 }
@@ -697,12 +697,19 @@ footer li {
     align-items: center;
 }
 
+.social-link a i {
+    font-size: 20px;
+    color: var(--white);
+}
+
 .social-link a:hover {
-    color: var(--yellow);
-    background-color: var(--white);
+    /* color: var(--yellow); */
+    background-color: var(--dark-grey);
     border: 2px solid var(--white);
 }
 
-.social-link a i {
-    font-size: 20px;
+.map {
+    height: 170px;
+    /* border-radius: 10px; */
+    border: 5px solid var(--light-grey);
 }
